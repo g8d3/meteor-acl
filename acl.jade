@@ -1,0 +1,150 @@
+template(name='hello')
+  .theme-invert
+    .white-window
+      nav.mainmenu
+        .container
+          +loginButtons
+          br
+          a(href='/admin') Admin
+          //.dropdown
+            button.navbar-toggle(type='button', data-toggle='dropdown')
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            // <a data-toggle="dropdown" href="#">Dropdown trigger</a>
+            ul.dropdown-menu(role='menu', aria-labelledby='dLabel')
+              li
+                a.active(href='#head') Head
+              li
+                a.active(href='/admin') Admin
+              li
+                a(href='#about') About me
+              li
+                a(href='#themes') Themes
+              li
+                a(href='#contact') Get in touch
+      // Main (Home) section
+      section#head.section
+        .container
+          .row
+            .col-md-10.col-lg-10.col-md-offset-1.col-lg-offset-1.text-center
+              // Site Title, your name, HELLO msg, etc.
+              h1.title Realty Defenders
+              h2.subtitle Accurate Homes For Sale
+              // Short introductory (optional)
+              h3.tagline
+                | Never fear you're paying too much for a home again.
+                br
+                | Real time data for daily active, pending and sold data.
+              // Nice place to describe your site in a sentence or two
+              p
+                a.btn.btn-default.btn-lg(href='#') Get Started
+            // /col
+          // /row
+      // Second (About) section
+      section#about.section
+        .container
+          h2.text-center.title About me
+          .row
+            .col-sm-4.col-sm-offset-2
+              h5
+                strong
+                  | Where's my lorem ipsum?
+                  br
+              p
+                | Well, here it is: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, ullam, ducimus, eaque, ex autem est dolore illo similique quasi unde sint rerum magnam quod amet iste dolorem ad laudantium molestias enim quibusdam inventore totam fugit eum iusto ratione alias deleniti suscipit modi quis nostrum veniam fugiat debitis officiis impedit ipsum natus ipsa. Doloremque, id, at, corporis, libero laborum architecto mollitia molestiae maxime aut deserunt sed perspiciatis quibusdam praesentium consectetur in sint impedit voluptates! Deleniti, sequi voluptate recusandae facere nostrum?
+            .col-sm-4
+              h5
+                strong
+                  | More, more lipsum!
+                  br
+              p
+                | Tempore, eos, voluptatem minus commodi error aut eaque neque consequuntur optio nesciunt quod quibusdam. Ipsum, voluptatibus, totam, modi perspiciatis repudiandae odio ad possimus molestias culpa optio eaque itaque dicta quod cupiditate reiciendis illo illum aspernatur ducimus praesentium quae porro alias repellat quasi cum fugiat accusamus molestiae exercitationem amet fugit sint eligendi omnis adipisci corrupti. Aspernatur.
+              h5
+                strong
+                  | Author links
+                  br
+              p
+                a(href='http://be.net/pozhilov9409') Behance
+                |  / 
+                a(href='https://twitter.com/serggg') Twitter
+                |  / 
+                a(href='http://linkedin.com/pozhilov') LinkedIn
+                |  / 
+                a(href='https://www.facebook.com/pozhilov') Facebook
+      // Third (Works) section
+      section#themes.section
+        .container
+          h2.text-center.title More Themes
+          p.lead.text-center
+            | Huge thank you to all people who publish
+            br
+            | 			their photos at 
+            a(href='http://unsplash.com') Unsplash
+            | , thank you guys!
+          .row
+            .col-sm-4.col-sm-offset-2
+              .thumbnail
+                img(src='assets/screenshots/sshot1.jpg', alt='')
+                .caption
+                  h3 Thumbnail label
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.
+                  p
+                    a.btn.btn-primary(href='#', role='button') Button
+                    a.btn.btn-default(href='#', role='button') Button
+            .col-sm-4
+              .thumbnail
+                img(src='assets/screenshots/sshot4.jpg', alt='')
+                .caption
+                  h3 Thumbnail label
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.
+                  p
+                    a.btn.btn-primary(href='#', role='button') Button
+                    a.btn.btn-default(href='#', role='button') Button
+            .col-sm-4.col-sm-offset-2
+              .thumbnail
+                img(src='assets/screenshots/sshot5.jpg', alt='')
+                .caption
+                  h3 Thumbnail label
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.
+                  p
+                    a.btn.btn-primary(href='#', role='button') Button
+                    a.btn.btn-default(href='#', role='button') Button
+            .col-sm-4
+              .thumbnail
+                img(src='assets/screenshots/sshot3.jpg', alt='')
+                .caption
+                  h3 Thumbnail label
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.
+                  p
+                    a.btn.btn-primary(href='#', role='button') Button
+                    a.btn.btn-default(href='#', role='button') Button
+      // Fourth (Contact) section
+      section#contact.section
+        .container
+          h2.text-center.title Get in touch
+          .row
+            .col-sm-8.col-sm-offset-2.text-center
+              p.lead Have a question about this template, or want to suggest a new feature?
+              p Feel free to email me, or drop me a line in Twitter!
+              p
+                b gt@gettemplate.com
+                br
+                br
+              ul.list-inline.list-social
+                li
+                  a.btn.btn-link(href='https://twitter.com/serggg')
+                    i.fa.fa-twitter.fa-fw
+                    |  Twitter
+                li
+                  a.btn.btn-link(href='https://github.com/pozhilov')
+                    i.fa.fa-github.fa-fw
+                    |  Github
+                li
+                  a.btn.btn-link(href='http://linkedin/in/pozhilov')
+                    i.fa.fa-linkedin.fa-fw
+                    |  LinkedIn

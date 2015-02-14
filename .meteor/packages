@@ -7,3 +7,11 @@
 meteor-platform
 autopublish
 insecure
+coffeescript
+stylus
+mquandalle:jade
+yogiben:admin
+iron:router
+accounts-ui
+twbs:bootstrap
+fortawesome:fontawesome
